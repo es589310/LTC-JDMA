@@ -1,0 +1,34 @@
+        9
+        çox saylı seçimlə idaretmə funksiyasına sahib while deyil switch-case dir
+
+
+        10
+        kod blokunu ən azı birdəfə istifadə etmək üçün for yox do-while-dan istifadə olunur
+
+
+        15
+        javada obyekt class-ın metodu deyil class-ın nümunəsidir. Niyə? Necə?
+
+
+        18
+        javada fields metod daxilində təyin olan dəyişən deyil sinif daxilində təyin olan dəyişəndir
+
+
+
+
+        20
+        //primitiv
+        double h; //niye = balaca herfle baslayanlar primitiv olur
+        //reference
+        String f;
+        ArrayList d;
+        Date;
+
+
+        22
+        'new' açar sözü class-a yeni nümunədir yeni dəyişən təyin etmək deyil
+
+
+        24
+        if-else də else şərt yanlış olduqda yeni kod blokunu işə salmaqdır
+

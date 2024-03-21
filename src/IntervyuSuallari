@@ -1,0 +1,11 @@
+1)Lesson8 5 / 1:37.
+        int startValue = 0;
+        do {
+            System.out.println(startValue);
+            startValue++;
+        }while (startValue>=100); // bu mümkünsüz şərt olduğu üçün həmi do-while ilk sout-u verecek
+
+//        do-while ilə while-ın fərqi, while-da şərt ödənməsə ekrana heçnə çap olunmur, do-while-da şərt ödənməsə belə ekrana ilk sout çap olunacaq
+
+2)Lesson10
+heap and stack memory, garbage collector
