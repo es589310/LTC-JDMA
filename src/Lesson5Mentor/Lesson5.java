@@ -1,8 +1,10 @@
 package Lesson5Mentor;
 
+import java.util.Scanner;
+
 public class Lesson5 {
     public static void main(String[] args) {
-        int num  = 5;
+//        int num = 5;
 //        while (num > 0){
 //            num--;
 //            System.out.println(num);
@@ -18,13 +20,15 @@ public class Lesson5 {
 //            }
 //            System.out.println(i);
 //         }
-//        Scanner scr = new Scanner(System.in);
-//
-//        while (true){
-//            System.out.println("Enter the number: ");
-//            String input = scr.next();
-//            if (input.equals("quit")) break;
-//        }
+
+
+        Scanner scr = new Scanner(System.in);
+
+        while (true){
+            System.out.println("Enter the number: ");
+            String input = scr.next();
+            if (input.equals("quit")) break;
+        }
 
 
     }

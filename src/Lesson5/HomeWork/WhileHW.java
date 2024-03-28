@@ -1,4 +1,4 @@
-package Lesson5;
+package Lesson5.HomeWork;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class WhileHW {
         //While
 //        int start = 0;
 //        int sum = 0;
-//        while (start <= 100) {
+//        while (start <= 3) {
 //            start += 2;
 //            sum += start;
 //        }
@@ -17,9 +17,6 @@ public class WhileHW {
 
 
 
-        //Fibonaççi
-
-        //Continue
 
     }
 }

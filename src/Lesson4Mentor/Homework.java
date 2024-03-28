@@ -36,7 +36,7 @@ public class Homework {
                 break;
             case "Fevral":
                 if ((!(year % 100 == 0) &&  (year % 4 == 0) ) || (year % 400 == 0))
-                        numDays = 29;
+                    numDays = 29;
 
                 else
                     numDays = 28;

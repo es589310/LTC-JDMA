@@ -13,7 +13,7 @@ public class Lesson6 {
 //        String car5 = "Ford Transit";
         //yuxaridakindansa bu daha uygundur
         // arrayin ölçüsü 1 dəfə təyin edilir
-//        String[] ford = {"Ford Fusion","Ford Mustang","Ford Focus", "Ford Escape", "Ford Transit"};
+        String[] ford = {"Ford Fusion","Ford Mustang","Ford Focus", "Ford Escape", "Ford Transit"};
 //        System.out.println(ford[4]);
 //        for (int i = 0; i < ford.length; i++) { // i<100 ifadəsi yanlışdır
 //            System.out.println(ford[i]);
@@ -73,9 +73,9 @@ public class Lesson6 {
 
         //Tekce String obyektdir
         //String ile sort
-        String[] abc = new String[]{"A","V","L","F","B"};
-        Arrays.sort(abc);
-        System.out.println(Arrays.toString(abc));
+//        String[] abc = new String[]{"A","V","L","F","B"};
+//        Arrays.sort(abc);
+//        System.out.println(Arrays.toString(abc));
 
 
 //        String[] cars = new String[5]; // arrayi yaradıb ölçüsünü istədiyimiz qədər təyin edə bilirik = 5

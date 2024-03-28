@@ -9,26 +9,29 @@ public class LevelNormal {
         int number1 = scr.nextInt();
 
 //      20-dən böyükdür yoxsa balacadırmı?
+       /*
         if(number1>20){
             System.out.println("Yazdığınız rəqəm 20-dən böyükdür");
         }else {
             System.out.println("Yazdığınız rəqəm 20-dən balacadır");
         }
+        */
 
 
 
-        //      Random
-        int randomNumber = (int) (Math.random() * 6) + 1;
+     /*   //      Random
+        int randomNumber = (int) (Math.random() * 6) + 1; //əllə yazılan randomu max-a vurub min ilə topluyuruq
         System.out.println("1 ilə 6 arasında təsadüfi bir ədəd yazın: ");
         System.out.println("Random ədəd: " + randomNumber);
 
         int randTam = randomNumber + number1;
         System.out.println("Random və tam ədədin cəmi: " + randTam);
-
+*/
 
 
 
         // Onluqla tam ədədlərin cəmi
+      /*
         System.out.println("Onluq ədəd daxil edin: " );
         int number = scr.nextInt();
 
@@ -44,16 +47,17 @@ public class LevelNormal {
         }else {
             System.out.println("Eded ondan kicikdir\n" + number);}
 
-
+*/
 
         // Təkmi cütmü?
+        /*
         if (number % 2 == 0){
             System.out.println("Cüt ədəd: " + number);
         }else {
             System.out.println("Tək ədəd: " + number);
         }
 
-
+*/
 
 
 

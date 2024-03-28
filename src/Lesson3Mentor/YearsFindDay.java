@@ -9,11 +9,11 @@ public class YearsFindDay {
         System.out.println("Salam! Sizin üçün neçə günü hesablaya bilərəm?: ");
         int sum_days = sc.nextInt();
 
-        int years = sum_days / 365;
-        int ryears = sum_days % 365;
+        int years = sum_days / 365; //500 / 365 = 1
+        int ryears = sum_days % 365; //500 % 365 = 135
 
-        int months = ryears / 30;
-        int weeks = (ryears % 30) / 7;
+        int months = ryears / 30; //135 / 30 = 4
+        int weeks = (ryears % 30) / 7; // 135 % 30 = 15 / 7 = 2
         int days = (ryears % 30) % 7;
 
 

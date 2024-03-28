@@ -9,7 +9,7 @@ public class Lesson5 {
         //for
         //for-da konkret rəqəmlər arasında iş görə bilirik, boolen tərzi nəsə qoya bilmirik
 
-//        for (int i=0; i<100; i+=11) // fori -yə basaraq bu funksiyanı aktiv edə bilirik
+//        for (int i=0; i<100; i+=1) // fori -yə basaraq bu funksiyanı aktiv edə bilirik
 //        // i = 0 -dan başla, 100-ə qədər get və hər dəfəsində i-ni 1 vahid artır
 //        // i++(i=i+1) i=0-ı hər dəfə bir vahid artırıb i<100 həddinə çatdırır
 //        {
@@ -37,7 +37,7 @@ public class Lesson5 {
 //        while (start<=100){
 //            System.out.println("Start"+start); //tək belə etsək loop-a girəcək
 //            start--; //loop-a girməyəcək
-//        }
+
 
 //        boolean check = true;
 //        int start = 1;
@@ -57,8 +57,8 @@ public class Lesson5 {
 //            System.out.println(startValue);
 //            startValue++;
 //        }while (startValue<=100);
-//
-        //bu intervyu sualıdır =
+
+//        bu intervyu sualıdır
 //        int startValue = 0;
 //        do {
 //            System.out.println(startValue);
@@ -91,20 +91,22 @@ public class Lesson5 {
         
         
 //        int bal = scr.nextInt(); //balı götürür
-//           switch case-dən rahat keçməyi üçün balı filter edir,
+////           switch case-dən rahat keçməyi üçün balı filter edir,
 //        bal = bal / 10; // 10 a bölür, əgər tam bölünməsə atır filterə(if)
 //        if (bal % 10 == 0){ //bal=95dirsə onun qalıqlı variantını 0 edir
 //            bal--; //ondan bir çıxır
 //        }
 //        switch (bal){
 //            case 1:
-////        }
+//                System.out.println("Bal miktarı 1'e eşittir. Özel bir durum olabilir.");
+//                break;
+//        }
 
-        int num = scr.nextInt();
-        while (num <= 5){
-            System.out.println(num);
-            num++;
-        }
+//        int num = scr.nextInt();
+//        while (num <= 5){
+//            System.out.println(num);
+//            num++;
+//        }
 
     }
 }

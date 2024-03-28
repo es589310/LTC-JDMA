@@ -1,4 +1,4 @@
-package Lesson5;
+package Lesson5.HomeWork;
 
 import java.util.Scanner;
 
@@ -11,7 +11,6 @@ public class DoWhileHW {
         do {
             if (scr.hasNextInt()) { // hasNextInt terminalda yazacağımın rəqəm yoxsa hərf olduğunu yoxlayır
                 guess = scr.nextInt();
-
                 if (number == guess) {
                     System.out.println("Əla! Gizli rəqəmi doğru tapdınız!");
                     break;

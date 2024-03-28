@@ -12,7 +12,6 @@ public class InchHW {
 //        System.out.println(cm);
 
 
-// inchi charla etmek olarmi?
     }
 
 

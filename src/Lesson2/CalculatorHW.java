@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class CalculatorHW {
     public static void main(String[] args){
-//method 1
+
+        //method 1
 /*
         Scanner input = new Scanner(System.in);
         System.out.println("Birinci rəqəm: ");
@@ -19,7 +20,7 @@ public class CalculatorHW {
 */
 
 
-//method 2
+        //method 2
         /*
         int number1;
         int number2;
@@ -43,7 +44,8 @@ public class CalculatorHW {
 */
 
 
-//method3
+        //method3
+        /*
         Scanner calculator = new Scanner(System.in);
         int num1;
         int num2;
@@ -71,10 +73,10 @@ public class CalculatorHW {
         System.out.println("Fərq - " + difference);
         System.out.println("Hasil - " + product);
         System.out.println("Faiz - " + remainder);
+*/
 
 
-
-// method 4
+        // method 4
         /*
         double number1;
         double number2;
@@ -91,6 +93,7 @@ public class CalculatorHW {
         System.out.println("Onluq ədədlərin qisməti: " + (number1/number2));
         System.out.println("Onluq ədədlərin hasili: " + (number1*number2));
         System.out.println("Onluq ədədlərin faizi: " + (number1%number2));
-    */}
+    */
+    }
 
 }

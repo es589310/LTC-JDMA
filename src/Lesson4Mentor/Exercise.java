@@ -7,6 +7,10 @@ public class Exercise {
         Scanner scr = new Scanner(System.in);
         System.out.println("Istiliyi nə ilə ölçəcəksiniz?  Celsius(C) yoxsa Fahrenheit(F)");
         char Choices = scr.next().toUpperCase().charAt(0);
+        /* scr next metodunu çağırır, next daxilində nə lazımdısa onu yazmağımızı istəyir,
+            toUpperCase () ilə yazdığımızı böyük hərf edir
+            charAt isə yazdığımız sözün birinci indeksini götürür
+        */
         System.out.println("Seçiminiz: " + Choices);
 
         if (Choices == 'C'){

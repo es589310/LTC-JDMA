@@ -6,6 +6,8 @@ public class Lesson2 {
     public static void main(String[] args) {
 // 1    System.out.println("Qui docet, discit");
 
+
+
 // 2      String name =  "Emin";
 //        String surname = "Panahov";
 //        String titul = "Mr.Panahov";

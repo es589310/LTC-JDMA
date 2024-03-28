@@ -8,7 +8,7 @@ public class Lesson3 {
 //        int a = scr.nextInt();
 //        int b = scr.nextInt();
 //        int c = scr.nextInt();
-//        System.out.println("Rəqəmlər: "+ a + "-" +b + "-" + c);
+//        System.out.println("Rəqəmlər: "+ a + "-" + b + "-" + c);
 
 //        if (a>b && a>c){
 //            System.out.println(a);

@@ -20,27 +20,23 @@ public class MentorHomework {
 
 
 //         İt hürürmü və indi gecədirmi?
-//        System.out.println("İt hürürmü?");
-////        boolean dogBark = scr.nextBoolean();
-//        String dogBark = scr.nextLine().toLowerCase();
-//        System.out.println("İt hürür");
-//
-//        System.out.println("İndi gecədi?");
-////        boolean nowNight = scr.nextBoolean();
-//        String nowNight = scr.nextLine().toLowerCase();
-//        System.out.println("Bəli");
-//
-//
-//        if(dogBark.equals("yes") && nowNight.equals("yes")){
-//            System.out.println("İtin gecə vaxtı hürməsi hər kəsi narahat edir.Bizidə yatmağa qoymur! ");
-//        } else if (dogBark.equals("yes") && !nowNight.equals("no")) {
-//            System.out.println("Hal-hazırda səhər olduğu üçün itin hürməsi bizi narahat etmir.");
-//        } else if (!dogBark.equals("no") && nowNight.equals("yes")) {
-//            System.out.println("Gecə vaxtı it hürsəydi yata bilməzdik.");
-//        }else {
-//            System.out.println("Hüzurlu və səssiz bir səhər..");
-//        }
+        /*
+        System.out.println("İt hürürmü?");
+        String dogBark = scr.nextLine().toLowerCase();
 
+        System.out.println("İndi gecədi?");
+        String nowNight = scr.nextLine().toLowerCase();
+
+        if(dogBark.equalsIgnoreCase("bəli") && nowNight.equalsIgnoreCase("bəli")){
+            System.out.println("İtin gecə vaxtı hürməsi hər kəsi narahat edir.Bizidə yatmağa qoymur! ");
+        } else if (dogBark.equalsIgnoreCase("bəli") && nowNight.equalsIgnoreCase("xeyr")) {
+            System.out.println("Hal-hazırda səhər olduğu üçün itin hürməsi bizi narahat etmir.");
+        } else if (dogBark.equalsIgnoreCase("xeyr") && nowNight.equalsIgnoreCase("bəli")) {
+            System.out.println("Gecə vaxtı it hürsəydi yata bilməzdik.");
+        }else {
+            System.out.println("Hüzurlu və səssiz bir səhər..");
+        }
+*/
 
     }
 }

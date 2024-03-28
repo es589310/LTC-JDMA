@@ -51,8 +51,23 @@ public class StringManipulation {
 //            System.out.printf("%02X ", b);
 //        }
 
-        //13
-//        System.out.println(text.);
+        //13 concat()
+//        String firstName = "Emin ";
+//        String lastName = "Panahov";
+//        System.out.println(firstName.concat(lastName));
+
+        //14
+//        System.out.println("Hello\rWorld"); //World
+//        System.out.println("Hello\tWorld"); //Hello    World
+//        System.out.println("Hello\b World"); //Hell World
+//        System.out.println("Hello\f World"); //Hello World
+
+//        System.out.println(Math.max(5,14)); //14
+//        System.out.println(Math.min(5,14)); //5
+//        System.out.println(Math.sqrt(81)); //9 kökaltına salma
+
+//        System.out.println(Math.abs(-4)); //4 = mənfini müsbət edir
+//        System.out.println(Math.random()); //
 
 
 

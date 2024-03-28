@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class LevelEntertaining {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int minRange = 1;
-        int maxRange = 10;
-        int attempts = 5;
+        System.out.println("Rəqəmləri təxmin et oyununa xoş gəldin!");
+
+        int minRange = 3;
+        int maxRange = 8;
+        int attempts = 5; //cəhd
         int targetNumber = (int) (Math.random() * (maxRange - minRange + 1)) + minRange;
         //Math.random() = 0 və 1 arasında kəsrli sayılar verir
 
-        System.out.println("Rəqəmləri təxmin et oyununa xoş gəldin!");
         System.out.println("Min. və max. arasında rəqəm verəcəm  " + minRange + " və " + maxRange + ".");
 
         while (attempts > 0) {
