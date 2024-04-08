@@ -1,0 +1,34 @@
+Encapsulation, Java'da verileri (özellikleri) ve bu veriler üzerinde işlem yapan metodları (fonksiyonları) genellikle bir sınıf olarak adlandırılan tek bir birimde toplama işlemidir. Bu, bir nesnenin bazı bileşenlerine doğrudan erişimi kısıtlayarak, kontrollü erişim sağlayarak gerçekleşir. Bu, bir nesnenin iç durumunun dış müdahaleden ve yanlış kullanımdan korunduğu anlamına gelir.
+
+Nesne tabanlı programlamada, kapsülleme birkaç nedenle önemlidir:
+
+Veri Gizleme: Kapsülleme, bir nesnenin iç durumunu dış dünyadan gizler. Bu, bir sınıfın uygulama ayrıntılarının gizlendiği ve diğer sınıflar tarafından erişilemeyeceği anlamına gelir. Yalnızca gerekli bilgiler, belirli arayüzler (metodlar) aracılığıyla açıklanır. Bu, güvenliği artırır ve verinin istenmeyen manipülasyonunu önler.
+
+Modülerlik ve Bakım Kolaylığı: Kapsülleme, her bileşenin (sınıfın) bağımsız olarak geliştirilmesini, test edilmesini ve bakımının yapılmasını teşvik eder. Bir sınıfın iç uygulamasında yapılan değişiklikler, diğer program parçalarını etkilemez, genel arayüz değişmedikçe. Bu, kodun anlaşılmasını, hata ayıklamasını ve bakımını kolaylaştırır.
+
+Esneklik ve Genişletilebilirlik: Kapsülleme, gereksiz ayrıntıları gizleyerek soyutlama kavramını sağlar. Net arayüzler tanımlayarak, kapsülleme mevcut kodu etkilemeden miras ve çok biçimliliği kullanarak işlevselliği kolayca genişletmeyi sağlar. Bu, kodun tekrar kullanılmasını teşvik eder ve esnek, adapte edilebilir yazılım sistemlerinin oluşturulmasını sağlar.
+
+Kontrollü Erişim: Kapsülleme, bir nesnenin iç durumuna erişimi kontrol etmeyi sağlar. Veriyi özel tutarak nesnenin durumunun her zaman geçerli ve tutarlı olmasını sağlar. Bu, beklenmeyen yan etkileri önler ve nesnenin davranışının bütünlüğünü sağlar.
+
+Özetlemek gerekirse, kapsülleme, Java ve nesne tabanlı programlamada temel bir kavramdır. Kod güvenliğini, modülerliği, esnekliği ve bakım kolaylığını artırır. Sağlam ve ölçeklenebilir yazılım sistemlerinin oluşturulmasında önemli bir rol oynar.
+
+
+Tanım: Java'da equals() ve hashCode() metodları, nesnelerin karşılaştırılmasında ve bu nesnelerin kullanıldığı koleksiyonlar (örneğin, HashSet, HashMap) gibi veri yapılarında kullanılmaktadır.
+
+equals() yöntemi: Bu yöntem, bir nesnenin diğer bir nesneye eşit olup olmadığını kontrol eder. Genellikle, nesneler arasındaki içeriksel eşitliği belirlemek için kullanılır. Varsayılan olarak, bu yöntem, referans eşitliğini (yani, aynı bellek konumunu gösterme) kontrol eder, ancak sınıf geliştiricileri ihtiyaca göre bu yöntemi geçersiz kılabilirler.
+
+hashCode() yöntemi: Bu yöntem, bir nesnenin karma değerini (hash code) döndürür. Karma değer, nesnelerin eşitlik testlerinde kullanılan veri yapılarında (örneğin, HashMap) kullanılır. Eşit nesneler aynı karma değerine sahip olmalıdır, ancak aynı karma değerine sahip olmayan nesneler eşit olmayabilir. Bu yöntem, özellikle veri yapısı performansı açısından önemlidir.
+
+Önemleri:
+
+Nesne Karşılaştırması: equals() ve hashCode() yöntemleri, nesnelerin eşitliğini belirlemek ve bu nesneleri karşılaştırmak için kullanılır. Özellikle koleksiyonlar gibi veri yapılarında nesnelerin doğru bir şekilde karşılaştırılması önemlidir. Örneğin, bir HashSet'e bir nesne eklerken, aynı nesnenin aynı HashSet'te yinelenmemesi için equals() ve hashCode() yöntemlerinin doğru bir şekilde uygulanması gerekir.
+
+Veri Yapısı Performansı: hashCode() yöntemi, özellikle büyük veri yapılarında performans için önemlidir. Karma değerlerin eşit olmayan nesneler arasında dağıtılması, bu veri yapılarının etkin bir şekilde çalışmasını sağlar. Doğru bir şekilde uygulandığında, hashCode değerleri, veri yapısının performansını artırır ve arama, ekleme ve silme gibi işlemleri daha hızlı hale getirir.
+
+Bu nedenlerden dolayı, equals() ve hashCode() yöntemlerinin doğru bir şekilde uygulanması, Java sınıflarının uygun şekilde karşılaştırılması ve koleksiyonlarda kullanılması için hayati öneme sahiptir.
+
+
+
+
+
+

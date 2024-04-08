@@ -9,3 +9,12 @@
 
 2)Lesson10
 heap and stack memory, garbage collector
+
+3)Lesson13 / 2.05.11
+    Intervyu sualı:
+          Bir class-ı immutable etmək üçün nə edə bilərik?
+          -ilk növbədə həmən class final edirik
+          -fieldləri final edirik
+          -fieldləri private edirik
+          -setMethod-larını yığışdırırıq
+          -metodu final edirik
