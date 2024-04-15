@@ -13,5 +13,6 @@ public class Worker {
 
     public void retire(){
         System.out.println(name + " bəyin (doğum tarixi " +birthDate+")" + " kontraktın sonudur" + endOfContract);
+
     }
 }

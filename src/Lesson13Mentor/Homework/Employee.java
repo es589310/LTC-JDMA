@@ -1,18 +1,25 @@
 package Lesson13Mentor.Homework;
 
 public class Employee extends Worker{
-    long employeeId;
     String hireDate;
+    long employeeId;
 
-    public Employee(String name, String birthDate, String endOfContract,long employeeId,String hireDate) {
+    public Employee(String name, String birthDate, String endOfContract, long employeeId, String hireDate) {
         super(name, birthDate, endOfContract);
         this.employeeId = employeeId;
         this.hireDate = hireDate;
-//        System.out.println("İşçinin vəsiqəsi " + employeeId + " və " + "iş üçün kiralanma tarixi " + hireDate);
     }
+
 
     @Override
     public void retire() {
         super.retire();
+        System.out.println("Maaşla işləyən:" + getMonthlySalary());
+        System.out.println("Saatla işləyən:" + getMonthlySalary());
+
+    }
+
+    public double getMonthlySalary(){
+        return 0;
     }
 }
