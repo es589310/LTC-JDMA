@@ -87,3 +87,25 @@ public class Lesson12 {
         return Objects.hash(id, name, surname);
     }
 }
+
+/*
+## Obyekt yönümlü proqramlaşdırma (OOP):
+
+Obyekt yönümlü proqramlaşdırma verilənləri modelləşdirmək və manipulyasiya etmək üçün obyektlərdən istifadə edən
+ proqramlaşdırma paradiqmasıdır. Java-da hər şey bir obyektdir və OOP əsas anlayışdır. OOP prinsiplərinə
+ inkapsulyasiya, irsiyyət və polimorfizm daxildir.
+
+## İnkapsulyasiya:
+
+İnkapsulyasiya OOP-un əsas prinsiplərindən biridir. Bu, verilənlərin (atributların) və həmin verilənlər üzərində
+işləyən metodların (funksiyaların) sinif adlanan vahid vahidə yığılmasını əhatə edir. Məqsəd obyektin daxili
+vəziyyətinə girişə nəzarət etmək, onu icazəsiz dəyişikliklərdən qorumaqdır.
+
+## Equals və HashCode Metodları:
+
+Java-da bərabərlik üçün iki obyektin məzmununu müqayisə etmək üçün `equals` metodundan istifadə edilir və
+`hashCode` metodu obyektin dəyərini əks etdirən tam ədədi qaytarır. Bu üsullar axtarış və məlumatların
+saxlanması kimi əməliyyatlar üçün istifadə olunur.
+
+
+ */

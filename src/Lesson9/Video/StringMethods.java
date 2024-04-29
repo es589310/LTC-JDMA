@@ -1,10 +1,8 @@
 package Lesson9.Video;
 
-import java.util.Arrays;
-
-public class lesson9StringMethods {
+public class StringMethods {
     public static void main(String[] args) {
-        String word = "Hello World";
+        String word = "Hello World hhhhshshshhhhehe";
 //        System.out.println(word.length()); //11
 //        System.out.println(word.substring(4, 8)); // o Wo
 //        System.out.println(word.substring(6)); // World
@@ -20,7 +18,7 @@ public class lesson9StringMethods {
 //        System.out.println(i1);
 
         String replace = word.replace("H", "T");
-        System.out.println(replace); //Tello World
+        System.out.println(replace); //Tello World hhhhshshshhhhehe
 
 
     }

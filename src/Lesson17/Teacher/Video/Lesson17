@@ -1,0 +1,6 @@
+Thread
+    classın thread olması üçün onu extend etmək lazımdır
+    konstruktoru yaradılır
+    run metodunu override edirik (alt+0 edib override -> run():void )
+    kodumuzu orda qeyd edirik, sonra isə main yaradıb, obyektləri verib işimizi görməliyik
+    kodda verilən rəqəmlər terminalda qarışmalıdır

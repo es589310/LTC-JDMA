@@ -3,7 +3,7 @@
         do {
             System.out.println(startValue);
             startValue++;
-        }while (startValue>=100); // bu mümkünsüz şərt olduğu üçün həmi do-while ilk sout-u verecek
+        }while (startValue>=100); // bu mümkünsüz şərt olduğu üçün həmin do-while ilk sout-u verecek
 
 //        do-while ilə while-ın fərqi, while-da şərt ödənməsə ekrana heçnə çap olunmur, do-while-da şərt ödənməsə belə ekrana ilk sout çap olunacaq
 
@@ -18,3 +18,14 @@ heap and stack memory, garbage collector
           -fieldləri private edirik
           -setMethod-larını yığışdırırıq
           -metodu final edirik
+
+4)Lesson15 /
+    Abstract class və inheritance fərqi
+    //    Java8-e qeder interface tərkibində yalnız body-si olmayan metodlar yazılırdı
+    // public abstract double odoHesabla(double odo); - interface bilirki public abstract default olaraq bunun qarşısında olur
+
+    //    Java8-den sonra isə interface tərkibində body-si olan metodlar artıq yazıla bilir
+    // default və static metodların köməyi ilə biz bodyli və bodysiz metodlar yaza bilirik
+
+5)Lesson17 /
+    Threadlarla bağlı təməl suallar

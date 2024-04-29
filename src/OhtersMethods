@@ -1,0 +1,9 @@
+1. Override olunmuş toString() main daxilində çağrılan classa verilmiş
+varaible `sout` içinə daxil edilir
+        Person person2 = new Person("Bob");
+        System.out.println(person2); // Output: Bob
+        əks təqdirdə
+        System.out.println(person1.toString()); // Output: Person@<hashcode>
+
+
+

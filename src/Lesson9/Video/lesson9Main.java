@@ -8,7 +8,8 @@ public class lesson9Main {
         micheelin.brand = "Michelin";
         micheelin.material = "Rezin";
         micheelin.size = 18;
-
+        String emin;
+        int emo;
 
         lesson9Engine v8 = new lesson9Engine();
         v8.name = "V8";
