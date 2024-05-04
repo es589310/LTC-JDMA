@@ -7,8 +7,11 @@ public class Main {
         car.price = 30000;
         car.currencyType = CurrencyType.EURO; //bu sayədə istifadəçi bunu dəyişə bilməyəcək
 
-        String type = CurrencyType.AZN.getValue();
-        System.out.println(type);
+        String name = CurrencyType.AZN.name();
+        System.out.println(name); //AZN
+        //burda niye ferqli chagirir
+        String type = CurrencyType.EURO.getValue();
+        System.out.println(type); //Avro
 
     }
 }
