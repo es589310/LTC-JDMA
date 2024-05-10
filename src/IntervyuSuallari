@@ -36,3 +36,17 @@ int value metodu nə edir?
 
 7)Lesson20 / 1.58.24
 TreeSet null qəbule etmir
+ArrayList və LinkedList işləmə prosesləri
+
+8)Lesson21 / 38.40
+Big o notation(qrafik)
+    O(1) - görülən işin böyüklüyündən asılı olmayaraq məs. 1 saniyə cavab qaytarmasıdır
+    O(N) - elementlərin sayı nə qədər çox olsa özüdə o qədər çox olur
+Arraylist
+    -axtarışda daha sürətlidir: big o notation-u O(1)-dir
+    -əlavə eləmək və silməkdə: big o notation-u O(n)-dir
+LinkList
+    -əlavə eləmək və silməkdə: big o notation-u O(1)-dir
+    -axtarışda daha sürətlidir: big o notation-u O(n)-dir
+
+Binary, selection, insertion sorts

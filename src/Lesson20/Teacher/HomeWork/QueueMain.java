@@ -1,4 +1,4 @@
-package Lesson20.Teacher.Video;
+package Lesson20.Teacher.HomeWork;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -13,6 +13,8 @@ public class QueueMain {
         queueTask.add("4-cü adam");
         queueTask.add("5-ci adam");
         System.out.println(queueTask);
+
+
 
         String firstRemove = queueTask.remove();
         System.out.println(firstRemove + " pulunu çəkib getdi.");
