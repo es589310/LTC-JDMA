@@ -4,7 +4,8 @@ package Lesson22.Teacher.Video;
 //Comparable da her shey eyni classin terkibinde yazilir
 public class ComparableStudent implements Comparable<ComparableStudent>{
     //Comparable = interface-dir
-    int id;
+    int id ;
+
     String name;
     int year;
     public ComparableStudent(int id, String name, int year) {
